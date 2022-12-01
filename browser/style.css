@@ -1,0 +1,26 @@
+body {
+  font: 14px Arial, sans-serif;
+  margin: 50px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input, button {
+  font: 14px Arial, sans-serif;
+  padding: 10px;
+}
+
+input {
+  width: 50px;
+}
+
+.response {
+  font-size: 30px;
+  padding: 50px;
+}
