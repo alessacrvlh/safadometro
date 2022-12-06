@@ -2,6 +2,16 @@ body {
   font: 14px Arial, sans-serif;
   margin: 50px;
   text-align: center;
+
+  background-color: #b750c7;
+}
+
+body h1 {
+  color: aliceblue;
+}
+
+body header .logo img {
+  width: 15.2rem;
 }
 
 label {
@@ -9,18 +19,24 @@ label {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 10px;
+  color: aliceblue;
 }
 
-input, button {
+input,
+button {
   font: 14px Arial, sans-serif;
   padding: 10px;
+  background-color: #e1dbe2;
+  border-radius: 10%;
 }
 
 input {
-  width: 50px;
+  width: 5rem;
 }
 
 .response {
   font-size: 30px;
   padding: 50px;
+  color: aliceblue;
+  font-style: bold;
 }

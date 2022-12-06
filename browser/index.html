@@ -2,18 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Saiba seu grau de safadeza e anjo</title>
+    <title>Safadeza do dia</title>
 
     <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/logo_aba.png.png" />
   </head>
 
   <body>
-    <h1>Saiba qual o seu grau de safadeza e de anjo</h1>
+    <header>
+      <div class="logo">
+        <a class="logo" href="#home">
+          <img
+            src="./assets/logo_medium.png"
+            alt="carinha de mal da cor roxa com fogo nos olhos"
+          />
+        </a>
+      </div>
+    </header>
+    <h1>Saiba qual o seu nível de safadeza do dia:</h1>
     <label>Data de nascimento:</label>
     <input data-js="day" placeholder="Dia" />
     <input data-js="month" placeholder="Mês" />
     <input data-js="year" placeholder="Ano" />
-    <button data-js="submit">Medir!</button>
+    <button data-js="submit">Calcular!</button>
 
     <div data-js="response" class="response"></div>
     <script src="wesley-safadao.js"></script>
